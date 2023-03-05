@@ -48,6 +48,7 @@ longitude = 7.6496971
 
 app = dash.Dash(external_stylesheets=[dbc.themes.PULSE, dbc.icons.BOOTSTRAP],
                 prevent_initial_callbacks=True)
+server = app.server
 
 src_autonomy = app.get_asset_url('percent_autonomy_none.png')
 src_electric_bill_reduction = app.get_asset_url('percent_bill_reduction_none.png')
@@ -1546,4 +1547,5 @@ def disabled_error(n):
 
 
 if __name__ == '__main__':
-    app.run_server(port=8051, debug=True)
+    # app.run_server(port=8051, debug=True)
+    app.run_server(debug=False)

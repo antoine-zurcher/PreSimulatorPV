@@ -1,4 +1,4 @@
-﻿cachelib==0.9.0
+cachelib==0.9.0
 certifi==2022.12.7
 charset-normalizer==3.0.1
 click==8.1.3
@@ -12,7 +12,7 @@ dash-leaflet==0.1.23
 dash-table==5.0.0
 EditorConfig==0.12.3
 Flask==2.2.3
-Flask-Caching==2.0.2
+Flask-Caching==1.11.1
 geobuf==1.1.1
 gunicorn==20.1.0
 h5py==3.8.0
@@ -21,7 +21,7 @@ itsdangerous==2.1.2
 Jinja2==3.1.2
 jsbeautifier==1.14.7
 MarkupSafe==2.1.2
-more-itertools==9.1.0
+more-itertools==8.14.0
 NREL-PySAM==4.1.0
 numpy==1.21.6
 pandas==1.3.5
